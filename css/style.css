@@ -1,0 +1,115 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:"Barlow Semi Condensed" sans-serif ;
+}
+h3{
+    padding-left: 1em;
+}
+p{
+    padding-left: 1em;
+
+}
+.testimonials{
+    background-color: hsl(210,46%,95%);
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+    row-gap: 10px;
+    column-gap: 30px;
+    width:80%;
+    margin:6em auto;
+
+    
+    
+}
+.daniel{
+    background-color: hsl(263,55%,52%);
+    /* width:80vw; */
+    color:hsl(0,0%,100%);
+    grid-column-start:1;
+    grid-column-end:3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    line-height: 1.5em;
+    border-radius: 10px;
+    background-image: url(../images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    /* position: relative; */
+    grid-row: 1;
+    grid-column: 1/span 2;
+
+    left:80%;
+    top: 25%;
+    z-index:0;
+background-size: 30%;
+background-position: top right 20%;
+    
+}
+.image1{
+border-radius: 50%;
+}
+.jonathan{
+    background-color: hsl(217,19%,35%);
+    /* width:30vw; */
+    color:hsl(0,0%,100%);
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    border-radius:10px;
+    line-height: 1.5em;
+    /* grid-row: 1; */
+    /* grid-column: 3; */
+}
+.jonathan img {
+    border-radius: 50%;
+}
+.jeanette{
+    background-color:hsl(0,0%,100%);
+    /* width: 30vw; */
+    color: hsl(217,19%,35%);
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    line-height: 1.5em;
+    border-radius: 10px;
+    /* grid-row: 2; */
+    /* grid-column: 1; */
+}
+.jeanette img{
+    border-radius: 50%;
+}
+.patrick{
+    background-color: hsl(219,29%,14%);
+    /* width:80vw; */
+    color:hsl(0,0%,100%);
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    line-height: 1.5em;
+    border-radius: 10px;
+    /* grid-row: 2; */
+    /* grid-column: 2/ span 2; */
+}
+.patrick img{   border-radius: 50%;
+}
+.kira{
+    background-color: hsl(0,0%,100%);
+    line-height: 1.5em;
+    grid-column-start: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    /* width: 30vw; */
+    /* height: 80vh; */
+    color: hsl(217,19%,35%);
+    border-radius: 10px;
+    /* grid-row: 1; */
+    /* grid-column:4; */
+    
+}
+.kira img{
+    border-radius: 50%;
+}
+
